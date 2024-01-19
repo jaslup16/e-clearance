@@ -1,0 +1,15 @@
+{
+    "require": {
+        "fakerphp/faker": "^1.23",
+        "firebase/php-jwt": "^6.10"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public",
+        "migrate": "php utils/migrate.php",
+        "migrate-reset": "php utils/migrate-reset.php",
+        "seed": "php utils/seed.php"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
